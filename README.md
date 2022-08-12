@@ -1,0 +1,2 @@
+# PortScanner-Syn-Flood
+in the first code (porstScanner) ,it builds tcp packet using c. the flag in the packet will be syn ( the first step of handshake in tcp) .then send it , if it gets ACK replay that means the port is open. After that it sends nothing . that makes an open connection. another file ( synflood ) to do syn flood attack .in simple words, it sends a lot of packets to open port until it's flood
